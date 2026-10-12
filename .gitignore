@@ -1,0 +1,16 @@
+# Visual Studio temporary files
+.vs/
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+
+# User-specific settings
+*.user
+*.suo
+
+# Debug and cache files
+*.pdb
+*.cache
