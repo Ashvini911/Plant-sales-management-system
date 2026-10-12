@@ -1,0 +1,3 @@
+C:\Users\EX BOOK\Desktop\project\Plant Sales Management System\Plant Sales Management System\Plant Sales Management System\x64\Debug\Plant Sales Management System.vcxproj.AssemblyReference.cache
+C:\Users\EX BOOK\Desktop\project\Plant Sales Management System\Plant Sales Management System\Plant Sales Management System\x64\Debug\PlantSalesManagementSystem.LoginForm.resources
+C:\Users\EX BOOK\Desktop\project\Plant Sales Management System\Plant Sales Management System\Plant Sales Management System\x64\Debug\Plant Sales Management System.vcxproj.GenerateResource.cache
