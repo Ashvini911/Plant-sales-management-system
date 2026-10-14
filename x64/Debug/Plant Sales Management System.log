@@ -1,3 +1,6 @@
-﻿  LoginForm.cpp
-  LoginForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+﻿  Category.cpp
+  Homeform.cpp
+  LoginForm.cpp
+  Generating Code...
+  Category.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   Plant Sales Management System.vcxproj -> C:\Users\EX BOOK\Desktop\project\Plant Sales Management System\Plant Sales Management System\x64\Debug\Plant Sales Management System.exe

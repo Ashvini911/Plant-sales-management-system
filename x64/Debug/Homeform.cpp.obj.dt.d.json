@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ex book\\desktop\\project\\plant sales management system\\plant sales management system\\plant sales management system\\homeform.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\ex book\\desktop\\project\\plant sales management system\\plant sales management system\\plant sales management system\\homeform.h",
+            "c:\\users\\ex book\\desktop\\project\\plant sales management system\\plant sales management system\\plant sales management system\\category.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

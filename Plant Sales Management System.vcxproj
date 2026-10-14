@@ -132,16 +132,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Category.cpp" />
+    <ClCompile Include="FlowerForm.cpp" />
+    <ClCompile Include="Homeform.cpp" />
     <ClCompile Include="LoginForm.cpp" />
+    <ClCompile Include="MyForm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Category.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FlowerForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Homeform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="LoginForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Category.resx">
+      <DependentUpon>Category.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlowerForm.resx">
+      <DependentUpon>FlowerForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homeform.resx">
+      <DependentUpon>Homeform.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
