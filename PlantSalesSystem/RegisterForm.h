@@ -14,7 +14,7 @@ namespace PlantSalesSystem {
 	public ref class RegisterForm : public System::Windows::Forms::Form
 	{
 	public:
-		// Register වුණ username එක (LoginForm එකට දෙන්න)
+		
 		property String^ RegisteredUsername;
 
 		RegisterForm(void)
@@ -313,7 +313,7 @@ namespace PlantSalesSystem {
 			t->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 		}
 
-		// Register button (තද කොළ)
+		// Register button 
 		btnRegister->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 		btnRegister->FlatAppearance->BorderSize = 0;
 		btnRegister->FlatAppearance->MouseOverBackColor = darkGreen;
@@ -323,7 +323,7 @@ namespace PlantSalesSystem {
 		btnRegister->Cursor = System::Windows::Forms::Cursors::Hand;
 		Round(btnRegister, 14);
 
-		// Back button (ලා කොළ)
+		// Back button 
 		btnBack->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 		btnBack->FlatAppearance->BorderSize = 0;
 		btnBack->FlatAppearance->MouseOverBackColor = System::Drawing::Color::FromArgb(200, 218, 190);
@@ -403,7 +403,7 @@ namespace PlantSalesSystem {
 			c1->ExecuteNonQuery();
 			int newUserId = (int)c1->LastInsertedId;
 
-			// 2. විස්තර customers table එකට
+			
 			MySqlCommand^ c2 = gcnew MySqlCommand(
 				"INSERT INTO customers (username, phone, address, userid) VALUES (@n, @ph, @a, @uid)", conn, tx);
 			c2->Parameters->AddWithValue("@n", name);

@@ -576,7 +576,7 @@ namespace PlantSalesSystem {
 			return sub;
 		}
 
-		// plant name එකට අදාල photo එක "images" folder එකෙන් හොයලා දෙනවා (නැත්නම් nullptr)
+		
 		System::Drawing::Image^ LoadPlantImage(String^ plantName)
 		{
 			try
@@ -589,7 +589,7 @@ namespace PlantSalesSystem {
 					String^ path = System::IO::Path::Combine(folder, plantName + ext);
 					if (System::IO::File::Exists(path))
 					{
-						// file එක lock වෙන්නේ නැති වෙන්න memory එකට කියවනවා
+						
 						array<Byte>^ bytes = System::IO::File::ReadAllBytes(path);
 						System::IO::MemoryStream^ ms = gcnew System::IO::MemoryStream(bytes);
 						return System::Drawing::Image::FromStream(ms);
@@ -881,7 +881,7 @@ namespace PlantSalesSystem {
 			card->Margin = System::Windows::Forms::Padding(8);
 			card->Tag = id;
 
-			// ---- plant photo (නැත්නම් අකුර) ----
+			// ---- plant photo  ----
 			Panel^ pic = gcnew Panel();
 			pic->Location = System::Drawing::Point(0, 0);
 			pic->Size = System::Drawing::Size(240, 115);
